@@ -1,6 +1,10 @@
 
 参考文档：https://docs.spring.io/spring-amqp/docs/2.1.5.RELEASE/reference/
 
+#介绍：
+>
+ 
+  1.[AMQP 抽象]()
 
 #问题：</br>
   >1.消息持久化（在broken宕机恢复后,队列中的消息不丢失) </br>
