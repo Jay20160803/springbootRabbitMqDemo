@@ -15,7 +15,8 @@ topic:
 fanout:
 headers:
 
->```Java 
+>
+```Java 
  public interface Exchange {
     String getName();
     String getExchangeType();
