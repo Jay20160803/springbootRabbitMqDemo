@@ -1,0 +1,10 @@
+
+#Message
+```Java 
+   public class Message {
+    private final MessageProperties messageProperties;
+    private final byte[] body;
+  }
+```
+
+  
