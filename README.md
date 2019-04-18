@@ -3,16 +3,16 @@
 
 
 #问题：
-  1.消息持久化（在broken宕机恢复后,队列中的消息不丢失）
-  2.消费者 push 与 pull的区别与实现
-  3.消费确认  ACK与NAK
-  4.消息的属性设置和有效载荷
-  5.Channels 的设置
-  6.queue 创建的设置
-  7.常用设置类
-    ConnectionFactory
-    AmqpAdmin
-    AmqpTemplate
+  1.消息持久化（在broken宕机恢复后,队列中的消息不丢失) </br>
+  2.消费者 push 与 pull的区别与实现</br>
+  3.消费确认  ACK与NAK</br>
+  4.消息的属性设置和有效载荷</br>
+  5.Channels 的设置</br>
+  6.queue 创建的设置</br>
+  7.常用设置类</br>
+    ConnectionFactory</br>
+    AmqpAdmin</br>
+    AmqpTemplate</br>
     
 ```Java 
    public class Message {
