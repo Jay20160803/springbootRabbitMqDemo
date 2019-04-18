@@ -15,7 +15,6 @@ topic:
 fanout:
 headers:
 
->
 ```Java 
  public interface Exchange {
     String getName();
@@ -63,11 +62,11 @@ public class Queue  {
 ```Java
 new Binding(someQueue, someDirectExchange, "foo.bar");
 ```
-绑定队列到 TopicExchange,指定routingKey 配备模式
+>绑定队列到 TopicExchange,指定routingKey 配备模式
 ```Java
 new Binding(someQueue, someTopicExchange, "foo.*");
 ```
-绑定队列到 FanoutExchange,不指定routingKey
+>绑定队列到 FanoutExchange,不指定routingKey
 ```Java
 new Binding(someQueue, someFanoutExchange);
 ```
