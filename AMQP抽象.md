@@ -7,7 +7,7 @@
   }
 ```
 #Exchange：broken中的每个虚拟主机，都有唯一命名的Exchange
->name: exchange 的名称
+>name: exchange 的名称</br>
 exchangeType: 
 direct: 
 topic: 
