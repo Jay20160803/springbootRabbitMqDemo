@@ -4,7 +4,7 @@
 #介绍：
 >
  
-  1.[AMQP 抽象]()
+  1.[AMQP 抽象](/AMQP抽象)
 
 #问题：</br>
   >1.消息持久化（在broken宕机恢复后,队列中的消息不丢失) </br>
@@ -18,13 +18,7 @@
     AmqpAdmin</br>
     AmqpTemplate</br>
     
-```Java 
-   public class Message {
-    private final MessageProperties messageProperties;
-    private final byte[] body;
-  }
-```
-  
+
   
     
   
