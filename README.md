@@ -8,6 +8,7 @@
 
 #问题：</br>
   >1.消息持久化（在broken宕机恢复后,队列中的消息不丢失) </br>
+  >>在默认Exchange、Queue、Message 创建时是持久化的
   2.消费者 push 与 pull的区别与实现</br>
   3.消费确认  ACK与NAK</br>
   4.消息的属性设置和有效载荷</br>
